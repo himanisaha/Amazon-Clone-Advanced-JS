@@ -59,7 +59,7 @@ export function renderOrderSummary() {
                   Choose a delivery option:
                 </div>
                 
-                ${deliveryOptionsHTML(matchingProduct, cartItem)};
+                ${deliveryOptionsHTML(matchingProduct, cartItem)}
               </div>
             </div>
           </div>`;
