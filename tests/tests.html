@@ -3,25 +3,39 @@
 
 <head>
   <meta charset="utf-8">
+  <!-- Title of the Jasmine Spec Runner page -->
   <title>Jasmine Spec Runner v5.1.1</title>
 
+  <!-- Favicon for the page (icon displayed in the browser tab) -->
   <link rel="shortcut icon" type="image/png" href="lib/test-jasmine/jasmine_favicon.png">
+
+  <!-- Link to Jasmine CSS file (styling for the Jasmine test runner page) -->
   <link rel="stylesheet" href="lib/test-jasmine/jasmine.css">
 
+  <!-- Jasmine core JavaScript file (Jasmine framework itself) -->
   <script src="lib/test-jasmine/jasmine.js"></script>
+
+  <!-- Jasmine HTML reporter file (generates HTML output for the tests) -->
   <script src="lib/test-jasmine/jasmine-html.js"></script>
+
+  <!-- Boot file that initializes Jasmine environment -->
   <script src="lib/test-jasmine/boot0.js"></script>
-  <!-- optional: include a file here that configures the Jasmine env -->
+
+  <!-- Optional: Another boot file to configure the Jasmine environment further -->
   <script src="lib/test-jasmine/boot1.js"></script>
 
+  <!-- File that contains the test cases for money utilities (currency formatting) -->
   <script src="./utils/moneyTests.js" type="module"></script>
 
+  <!-- File that contains the test cases for cart functionality -->
   <script src="./data/cartTest.js" type="module"></script>
 
+  <!-- File that contains the test cases for the order summary page -->
   <script src="./checkout/orderSummaryTest.js" type="module"></script>
 </head>
 
 <body>
+  <!-- Container where test results will be displayed -->
   <div class="js-test-container"></div>
 </body>
 
